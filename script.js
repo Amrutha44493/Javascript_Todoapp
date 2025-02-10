@@ -32,7 +32,7 @@ loginForm.addEventListener('submit', function (event) {
 });
 
 function login(username, password, callback) {
-    if (username === 'admin' && password === '12315') {
+    if (username === 'admin' && password === '12345') {
         callback(true);
     } else {
         callback(false);
